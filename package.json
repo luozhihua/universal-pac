@@ -1,0 +1,42 @@
+{
+  "name": "universal-pac",
+  "version": "1.0.0",
+  "description": "A universal PAC file url server.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luozhihua/universal-pac.git"
+  },
+  "keywords": [
+    "PAC",
+    "pac",
+    "file",
+    "pac",
+    "url",
+    "pac",
+    "server"
+  ],
+  "author": "Colin luo <mail@luozhihua.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luozhihua/universal-pac/issues"
+  },
+  "homepage": "https://github.com/luozhihua/universal-pac#readme",
+  "dependencies": {
+    "@types/koa-bodyparser": "^4.3.0",
+    "@types/koa-helmet": "^3.1.2",
+    "@types/koa-logger": "^3.1.1",
+    "boom": "^7.3.0",
+    "koa": "^2.8.1",
+    "koa-body": "^4.1.1",
+    "koa-bodyparser": "^4.2.1",
+    "koa-helmet": "^5.1.0",
+    "koa-logger": "^3.2.1",
+    "koa-router": "^7.4.0",
+    "koa-router-swagger-decorators": "^3.2.1",
+    "ts-node": "^8.4.1"
+  }
+}
